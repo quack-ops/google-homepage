@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+                
+    <head>
+        <!--CSS for logo image and search bar.-->
+        <style>
+            * {box-sizing: border-box;}
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            <!--
+            input {
+                .search-container button {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                    width: 100%;
+                    margin: 0;
+                    padding: 10px;
+                }
+            }
+        -->
+            .search-container {
+                margin: auto;
+                width: 30%;
+                margin-top: 100px;
+            } 
+            #logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+                margin-top: 100px;
+            }
+        </style>
+        <!--Container for Logo and Header text.-->
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo" id="logo">
+
+        <body>
+            <!--Container for search bar and any design components.-->
+<div class="search-container">
+    <form action="/action_page.php">
+<input type="text" placeholder="Search.." name="search">
+<button type="submit"><i class="search"></i>Search</button>
+</form>
+</div>
+        </body>
+
+    </head>
+</html>
